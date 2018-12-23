@@ -1,0 +1,9 @@
+[package]
+name = "zDrinks"
+version = "0.1.0"
+authors = ["Brian Mooney <brian_satchwannabe@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+structopt = { version = "0.2"}
+reqwest = "0.9.5"
