@@ -7,3 +7,6 @@ edition = "2018"
 [dependencies]
 structopt = { version = "0.2"}
 reqwest = "0.9.5"
+dirs = "1.0.4"
+toml =  "0.4.10"
+
