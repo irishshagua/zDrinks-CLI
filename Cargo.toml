@@ -1,12 +1,15 @@
 [package]
-name = "zDrinks"
+name = "z_drinks"
 version = "0.1.0"
 authors = ["Brian Mooney <brian_satchwannabe@hotmail.com>"]
 edition = "2018"
 
 [dependencies]
-structopt = { version = "0.2"}
-reqwest = "0.9.5"
-dirs = "1.0.4"
-toml =  "0.4.10"
-
+structopt = "0.2"
+reqwest = "0.9"
+dirs = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+serde_yaml = "0.8"
+url = "1.7"
+failure = "0.1.4"
